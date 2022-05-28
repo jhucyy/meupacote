@@ -2,7 +2,7 @@ Package: meupacote
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+    person("Juciane", "Pereira", , "juciane.pereira@ufba.br", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
@@ -11,3 +11,13 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.0
 URL: https://github.com/jhucyy/meupacote
 BugReports: https://github.com/jhucyy/meupacote/issues
+Imports: 
+    devtools,
+    dplyr,
+    lubridate,
+    magrittr,
+    readr,
+    usethis
+Depends: 
+    R (>= 2.10)
+LazyData: true
