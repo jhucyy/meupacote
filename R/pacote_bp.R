@@ -36,7 +36,7 @@ filtrar_videos_por_categorias <- function(filtro_categorias,
 
 
 # ex:
-filtrar_videos_por_categorias(filtro_categorias = "Educação", filtro_mes = 01,
+filtrar_videos_por_categorias(filtro_categorias = "Educação", filtro_mes = 09,
                               filtro_ano = 2021)
 
 
