@@ -1,8 +1,8 @@
 # ideia preliminar, buscar os vídeos mais assistidos da BP
-library(usethis)
-library(tidyverse)
-library(lubridate)
-library(devtools)
+# library(usethis)
+# library(tidyverse)
+# library(lubridate)
+# library(devtools)
 # base de dados -----------------------------------------------------------
 library(readxl)
 brasil_paralelo <- readxl::read_excel("./brasil_paralelo.xls")
