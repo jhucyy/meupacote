@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of meupacote is to ...
+O objetivo do pacote é filtrar dados de um canal do Youtube BP, o qual constitui meu objeto de pesquisa no mestrado.
 
 ## Installation
 
