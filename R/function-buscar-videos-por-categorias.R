@@ -1,6 +1,8 @@
+library(magrittr)
+
 filtrar_videos_por_categorias <- function(filtro_categorias,
                                           filtro_mes, filtro_ano){
-  brasil_paralelo %>%  #base de dados
+  brasil_paralelo %>%
     dplyr::mutate(ano = lubridate::year(data_de_publicação),
                   mes = lubridate::month(data_de_publicação)) %>%
     dplyr::group_by(categorias, mes, ano) %>%

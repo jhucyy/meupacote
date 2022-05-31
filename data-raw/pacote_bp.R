@@ -36,12 +36,13 @@ filtrar_videos_por_categorias <- function(filtro_categorias,
 
 
 # ex:
-filtrar_videos_por_categorias(filtro_categorias = "Educação", filtro_mes = 09,
-                              filtro_ano = 2021)
+filtrar_videos_por_categorias(filtro_categorias = "Educação", filtro_mes = 02,
+                              filtro_ano = 2022)
 
 
 
 
 # Função02: Filtrar os vídeos com base no Número de likes e coment --------
+
 
 
