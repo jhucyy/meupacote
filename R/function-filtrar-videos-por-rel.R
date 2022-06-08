@@ -4,3 +4,4 @@ filtrar_rel <- function(filtro_likes, filtro_comen){
   dplyr::filter(likes >= filtro_likes, comentários >= filtro_comen)
 
 }
+
