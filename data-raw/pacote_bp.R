@@ -1,8 +1,9 @@
 # ideia preliminar, buscar os vídeos mais assistidos da BP
-# library(usethis)
-# library(tidyverse)
-# library(lubridate)
-# library(devtools)
+rm(list = ls())
+library(usethis)
+library(tidyverse)
+library(lubridate)
+library(devtools)
 # base de dados -----------------------------------------------------------
 library(readxl)
 brasil_paralelo <- readxl::read_excel("./brasil_paralelo.xls")
@@ -42,7 +43,25 @@ filtrar_videos_por_categorias(filtro_categorias = "Educação", filtro_mes = 02,
 
 
 
-# Função02: Filtrar os vídeos com base no Número de likes e coment --------
+
+# Função filtrar 2 --------------------------------------------------------
+# filtra os vídeos com base no número de likes e comentários combinado
+# os critérios dos números de likes e comentário são abertos para
+# definição, assim, pode-se combinar qualquer parâmetro.
+
+filtrar_rel <- function(filtro_likes, filtro_comen){
+  brasil_paralelo %>%
+    filter(likes >= filtro_likes, comentários >= filtro_comen)
+
+}
+
+
+teste <- filtrar_rel(filtro_likes = 100000, filtro_comen = 100)
+
+
+
+
+
 
 
 
