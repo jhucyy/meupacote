@@ -1,4 +1,3 @@
-library(magrittr)
 
 filtrar_videos_por_categorias <- function(filtro_categorias,
                                           filtro_mes, filtro_ano){

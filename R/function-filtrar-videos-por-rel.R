@@ -1,5 +1,3 @@
-library(magrittr)
-
 
 filtrar_rel <- function(filtro_likes, filtro_comen){
   brasil_paralelo %>%
