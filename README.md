@@ -8,11 +8,11 @@ O objetivo do pacote é filtrar dados de um canal do Youtube BP, o qual constitu
 
 ## Installation
 
-You can install the development version of meupacote from [GitHub](https://github.com/jhucyy) with: devtools::install_github("jhucyy/pacote_bp")
+You can install the development version of meupacote from [GitHub](https://github.com/jhucyy) with: devtools::install_github("jhucyy/meupacote")
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("jhucyy/pacote_bp")
+devtools::install_github("jhucyy/meupacote")
 ```
 
 ## Example
@@ -20,7 +20,7 @@ devtools::install_github("jhucyy/pacote_bp")
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
-library(pacote_bp)
+library(meupacote)
 ## basic example code
 ```
 
