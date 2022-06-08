@@ -10,7 +10,6 @@ test_that("filtrar_videos_por_categorias() funciona", {
   expect_s3_class(resultado_test01, "tbl_df")
 
 
-
 })
 
 
