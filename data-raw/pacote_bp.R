@@ -13,6 +13,10 @@ brasil_paralelo <- readxl::read_excel("./brasil_paralelo.xls")
 devtools::load_all()
 devtools::check()
 
+
+# Função 01 ---------------------------------------------------------------
+
+
 # base de lista de vídeos extraído do canal do youtube da Brasil Paralelo
 # em 28/05/2022, base extraída com o programa Youtube Data Tools
 
@@ -56,7 +60,9 @@ filtrar_rel <- function(filtro_likes, filtro_comen){
 }
 
 
-teste <- filtrar_rel(filtro_likes = 100000, filtro_comen = 100)
+
+# ex:
+ filtrar_rel(filtro_likes = 100000, filtro_comen = 100)
 
 
 
