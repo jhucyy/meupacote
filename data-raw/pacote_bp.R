@@ -32,7 +32,7 @@ filtrar_videos_por_categorias <- function(filtro_categorias,
    brasil_paralelo %>%  #base de dados
     dplyr::mutate(ano = lubridate::year(data_de_publicação),
                   mes = lubridate::month(data_de_publicação)) %>%
-       group_by(categorias, mes, ano) %>%
+       dplyr::group_by(categorias, mes, ano) %>%
        ungroup() %>%
   dplyr::filter(categorias == filtro_categorias) %>%
     dplyr::filter(ano == filtro_ano & mes == filtro_mes)
@@ -55,7 +55,7 @@ filtrar_videos_por_categorias(filtro_categorias = "Educação", filtro_mes = 02,
 
 filtrar_rel <- function(filtro_likes, filtro_comen){
   brasil_paralelo %>%
-    filter(likes >= filtro_likes, comentários >= filtro_comen)
+   dplyr::filter(likes >= filtro_likes, comentários >= filtro_comen)
 
 }
 
