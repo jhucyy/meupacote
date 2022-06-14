@@ -12,3 +12,8 @@
 #' @param rhs A function call using the magrittr semantics.
 #' @return The result of calling `rhs(lhs)`.
 NULL
+
+
+
+utils::globalVariables(c("brasil_paralelo", "likes", "comentários",
+                         "data_de_publicação", "categorias", "mes", "ano"))

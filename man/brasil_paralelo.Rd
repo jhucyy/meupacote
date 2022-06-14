@@ -33,7 +33,7 @@ e  28/05/2022
 dos vídeos do canal do YouTube Brasil Paralelo,
 a base foi extraída com o auxílio do software YouTube Data Tools
 criado por Bernhard Rieder como parte do
-projeto Digital Methods Iniciative da Universidade de Amstedã.
+projeto Digital Methods Iniciative da Universidade de Amsterdã.
 }
 \details{
 Descrição da base
