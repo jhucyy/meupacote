@@ -11,6 +11,9 @@ filtrar_rel(filtro_likes, filtro_comen)
 
 \item{filtro_comen}{quantidade de comentários}
 }
+\value{
+um data frame
+}
 \description{
 Essa função tem como objetivo simplificar a triagem dos vídeos da base
 do canal Brasil Paralelo, com base em dois critérios que enumerei
@@ -19,4 +22,7 @@ e o número de comentários dos vídeos. Os critérios devem ser designados
 conforme a numeração escolhida, e colocados nos argumentos filtro_likes = x
 para o número de likes desejados e filtro_comen = x para o número de
 comentários estabelecido.
+}
+\examples{
+filtrar_rel(filtro_likes = 1000, filtro_comen = 200)
 }

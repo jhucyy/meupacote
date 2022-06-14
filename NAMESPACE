@@ -2,4 +2,5 @@
 
 export("%>%")
 export(filtrar_rel)
+export(filtrar_videos_por_categorias)
 importFrom(magrittr,"%>%")
